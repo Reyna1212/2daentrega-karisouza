@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Chanel Coco Mademoiselle",
+    "descripcion": "Fresco, floral y sofisticado.",
+    "precio": 1000,
+    "imagen": "imagen/coco-mademoiselle-.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Dior J'adore",
+    "descripcion": "Un clásico floral dorado y elegante.",
+    "precio": 1500,
+    "imagen": "imagen/jadore.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Lancôme La Vie Est Belle",
+    "descripcion": "Dulce, femenina y vibrante.",
+    "precio": 2000,
+    "imagen": "imagen/lancome.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Carolina Herrera Good Girl",
+    "descripcion": "Sexy y poderosa.",
+    "precio": 2500,
+    "imagen": "imagen/carolina-herrera1.webp"
+  }
+]

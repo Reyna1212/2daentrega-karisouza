@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fragancias - Esencia Pura</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Fragancias</h1>
+    <h2>Esencia Pura</h2>
+  </header>
+
+  <div class="portada">
+    <img src="imagen/portada.png" alt="Foto de portada perfumes" />
+  </div>
+
+  <main>
+    <section id="lista-perfumes"></section>
+  
+    <div id="carrito-container">
+      <section id="seccion-carrito">
+        <h2>🛒 Carrito</h2>
+        <div id="carrito"></div>
+        <p id="total">Total: $0</p>
+      </section>
+  
+      <section id="seccion-pedido">
+        <h2>Finalizar Pedido</h2>
+        <form id="formPedido">
+          <div class="campo-form">
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="campo-form">
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+          </div>
+          <div class="campo-form">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+          </div>
+          <button type="submit">Finalizar Pedido</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Fragancia Esencia Pura — La esencia de tu identidad.<br>
+    © 2025 Derechos reservados.</p>
+  </footer>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
